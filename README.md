@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github](https://amrmabdelazeem.github.io/interactive-card-details/)
 
 ## My process
 
@@ -59,8 +59,8 @@ Users should be able to:
 - CSS custom properties
 - CSS Grid
 - Mobile-first workflow
--[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
--[jQuery](https://api.jquery.com/) - JS Library
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [jQuery](https://api.jquery.com/) - JS Library
 
 ### What I learned
 
