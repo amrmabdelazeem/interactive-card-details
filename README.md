@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend-Mentor](https://www.frontendmentor.io/solutions/interactivecarddetails-with-mobilefirst-workflow-and-javascript-7JP3qvrZ2Y)
 - Live Site URL: [Github](https://amrmabdelazeem.github.io/interactive-card-details/)
 
 ## My process
