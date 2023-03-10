@@ -69,6 +69,10 @@ body {
     font-size: 19.5px;
 }
 
+h1{
+    font-size: 19.5px;
+}
+
 .cards-preview .card-expiry{
     position: absolute;
     top: 220px;
@@ -102,12 +106,11 @@ label{
 
 .card-info .card-holder-name, .card-info .card-holder-number{
     width: 95%;
-    padding: .5rem 0;
+    padding: .7rem 0;
     padding-left: .8rem;
-    margin-top: .4rem;
     border-radius: 5px;
     border: 1px solid hsl(270, 3%, 87%);
-    font-size: 1rem;
+    font-size: 1.1rem;
     opacity: .5;
 }
 
@@ -167,6 +170,7 @@ label{
     font-size: 1rem;
     opacity: .5;
     border: 1px solid #dedddf;
+    
 }
 
 #year{
@@ -174,7 +178,7 @@ label{
 }
 
 .cvc{
-    margin-left: 2.8rem;
+    margin-left: 3.8rem;
 }
 
 #cvc{
@@ -191,11 +195,12 @@ label{
 
 #confirm-btn{
     margin: 1.5rem 0;
-    width: 100%;
-    padding: .7rem;
+    width: 99%;
+    padding: .9rem;
     border-radius: 10px;
     color: #fff;
     background-color: #000;
+    font-size: 1.2rem;
 
 }
 
@@ -235,8 +240,8 @@ label{
     .container{
         height: 100vh;
         display: grid;
-        grid-template-columns: 30% 30%;
-        gap: 20%;
+        grid-template-columns: 33% 30%;
+        gap: 23%;
     }
 
     .container .cards-preview{
@@ -249,52 +254,68 @@ label{
 
     .container .card-info{
         align-self: center;
+        margin-top: 30px;
         
     }
 
     .cards-preview .card-back{
-        width: 300px;
-        top:270px;
-        left: 280px;
+        width: 450px;
+        top:469px;
+        left: 255px;
     }
     .cards-preview .cvv{
-        top: 345px;
-        left:520px;
+        top: 36.3rem;
+        left:38rem;
         z-index: 1;
+        font-size: 1rem;
     }
 
     .cards-preview .card-front{
-        width: 300px;
-        top: 80px;
-        left: 210px;
+        width: 28rem;
+        top: 11.7rem;
+        left: 10rem;
     }
 
     .card-logo{
         position: absolute;
-        left: 230px;
-        top: 100px
+        width: 5rem;
+        left: 12.2rem;
+        top: 13.4rem;
     }
 
+    h1{
+        font-size: 1.9rem;
+    }
     .cards-preview .card-number{
-        left: 235px;
-        top: 175px;
+        left: 12rem;
+        top: 20rem;
         letter-spacing: 2px;
         
     }
 
     .cards-preview .card-expiry{
-        left: 450px;
-        top: 215px;
+        font-size: 1rem;
+        left: 32.8rem;
+        top: 24.2rem;
     }
 
     .cards-preview .card-name{
-        left: 250px;
-        top: 215px;
+        font-size: 1.1rem;
+        left: 12.2rem;
+        top: 24.2rem;
     }
 
-    .mixed .cvc{
-        margin-left: 5rem;
+    /* Form Section */
+    label{
+        font-size: .96rem;
     }
+    .card-info .card-holder-name{
+        margin-top: 10px;
+    }
+vc{
+        margin-left: 3.5rem;
+    }
+
 
     .completed{
         width: 30%;
