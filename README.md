@@ -36,7 +36,7 @@ Users should be able to:
 
 <tr>
 
-![Desktop](https://i.imgur.com/D2iTwSv.png)
+![Desktop](https://i.imgur.com/hlPYBrO.png)
 
 
 ### Links
