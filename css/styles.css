@@ -148,9 +148,10 @@ label{
 }
 
 
+
 #year-error{
     margin-left: 3rem;
-    margin-right: 2.2rem;
+    margin-right: 3rem;
 }
 
 /* .correct-format:focus{
@@ -178,7 +179,7 @@ label{
 }
 
 .cvc{
-    margin-left: 3.8rem;
+    margin-left: 5rem;
 }
 
 #cvc{
@@ -312,9 +313,12 @@ label{
     .card-info .card-holder-name{
         margin-top: 10px;
     }
-vc{
-        margin-left: 3.5rem;
+    
+    #year-error{
+        margin-right: 4rem;
     }
+
+
 
 
     .completed{
