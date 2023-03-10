@@ -46,12 +46,12 @@ Users should be able to:
 
 ## My process
 
--I've built up the skeleton for the website with HTML.
--Styled most of the page's with CSS.
--Used Mobile first pattern.
--Started to use functionality and added brains using JavaScript.
--Debugging process.
--finished the desktop verison.
+- I've built up the skeleton for the website with HTML.
+- Styled most of the page's with CSS.
+- Used Mobile first pattern.
+- Started to use functionality and added brains using JavaScript.
+- Debugging process.
+- Finished the desktop verison.
 
 ### Built with
 
