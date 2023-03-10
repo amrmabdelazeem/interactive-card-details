@@ -26,104 +26,112 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="cards-preview">
-        <!--Back of the card preview-->
-        <img src="images/bg-card-back.png" alt="card-back" class="card-back" />
-        <div class="cvv">000</div>
-
-        <!--front of the card preview-->
-        <img
-          src="images/bg-card-front.png"
-          alt="card-front"
-          class="card-front"
-        />
-        <img src="images/card-logo.svg" alt="card-logo" class="card-logo" />
-        <div class="card-number">0000 0000 0000 0000</div>
-        <div class="card-expiry">
-          <span class="monthOnCard">00</span>/<span class="yearOnCard">00</span>
-        </div>
-        <div class="card-name">Jane Appleseed</div>
-      </div>
-
-      <!--The form section-->
-      <div class="card-info">
-        <form action="#" id="myForm" onsubmit="addCard()">
-          <p class="submit-error">Please enter the correct format</p>
-
-          <label for="card-name">Cardholder Name</label>
-          <input
-            id="card-name"
-            type="text"
-            class="card-holder-name"
-            placeholder=" e.g. Jane Appleseed"
-            autocomplete="off"
-            oninput="inputName()"
-          /><br />
-          <p id="name-error">Invalid format, enter letters only.</p>
-
-          <label for="card-number">Card Number</label><br />
-          <input
-            id="card-number"
-            type="text"
-            class="card-holder-number"
-            placeholder="e.g. 1234 5678 9123 0000"
-            oninput="inputCard()"
-            maxlength="19"
-          /><br />
-          <p id="number-error">Invalid format, enter numbers only</p>
-
-          <label for="" class="mixed"
-            >Exp. Date (MM/YY) <span class="cvc">CVC</span></label
-          ><br />
-          <input
-            id="month"
-            type="text"
-            placeholder="MM"
-            maxlength="2"
-            pattern="[0-9]{2}"
-            oninput="inputMonth()"
+    <main>
+      <div class="container">
+        <div class="cards-preview">
+          <!--Back of the card preview-->
+          <img
+            src="images/bg-card-back.png"
+            alt="card-back"
+            class="card-back"
           />
+          <div class="cvv">000</div>
 
-          <input
-            id="year"
-            type="text"
-            placeholder="YY"
-            maxlength="2"
-            pattern="[0-9]{2}"
-            oninput="inputYear()"
-            autocomplete="off"
+          <!--front of the card preview-->
+          <img
+            src="images/bg-card-front.png"
+            alt="card-front"
+            class="card-front"
           />
-
-          <input
-            type="text"
-            id="cvc"
-            placeholder="e.g. 123"
-            pattern="[0-9]{3}"
-            minlength="3"
-            maxlength="3"
-            oninput="inputCvv()"
-          /><br />
-          <div class="errors">
-            <p id="month-error">can't be blank</p>
-            <p id="year-error">can't be blank</p>
-            <p id="cvc-error">can't be blank</p>
+          <img src="images/card-logo.svg" alt="card-logo" class="card-logo" />
+          <div class="card-number"><h1>0000 0000 0000 0000</h1></div>
+          <div class="card-expiry">
+            <span class="monthOnCard">00</span>/<span class="yearOnCard"
+              >00</span
+            >
           </div>
+          <div class="card-name">Jane Appleseed</div>
+        </div>
 
-          <input id="confirm-btn" type="submit" value="Confirm" />
-        </form>
+        <!--The form section-->
+        <div class="card-info">
+          <form action="#" id="myForm" onsubmit="addCard()">
+            <p class="submit-error">Please enter the correct format</p>
+
+            <label for="card-name">Cardholder Name</label>
+            <input
+              id="card-name"
+              type="text"
+              class="card-holder-name"
+              placeholder=" e.g. Jane Appleseed"
+              autocomplete="off"
+              oninput="inputName()"
+            /><br />
+            <p id="name-error">Invalid format, enter letters only.</p>
+
+            <label for="card-number">Card Number</label><br />
+            <input
+              id="card-number"
+              type="text"
+              class="card-holder-number"
+              placeholder="e.g. 1234 5678 9123 0000"
+              oninput="inputCard()"
+              maxlength="19"
+            /><br />
+            <p id="number-error">Invalid format, enter numbers only</p>
+
+            <label for="month" class="mixed">
+              Exp. Date (MM/YY) <span class="cvc">CVC</span></label
+            ><br />
+            <input
+              id="month"
+              type="text"
+              placeholder="MM"
+              maxlength="2"
+              pattern="[0-9]{2}"
+              oninput="inputMonth()"
+            />
+
+            <input
+              id="year"
+              type="text"
+              placeholder="YY"
+              maxlength="2"
+              pattern="[0-9]{2}"
+              oninput="inputYear()"
+              autocomplete="off"
+            />
+
+            <input
+              type="text"
+              id="cvc"
+              placeholder="e.g. 123"
+              pattern="[0-9]{3}"
+              minlength="3"
+              maxlength="3"
+              oninput="inputCvv()"
+            /><br />
+            <div class="errors">
+              <p id="month-error">can't be blank</p>
+              <p id="year-error">can't be blank</p>
+              <p id="cvc-error">can't be blank</p>
+            </div>
+
+            <input id="confirm-btn" type="submit" value="Confirm" />
+          </form>
+        </div>
       </div>
-    </div>
 
-    <!-- Completed state start -->
+      <!-- Completed state start -->
 
-    <div class="completed" id="complete">
-      <img src="images/icon-complete.svg" alt="complete" />
-      <h2>THANK YOU!</h2>
-      <p>We've addded your card details</p>
-      <button onclick="resetFields()">Continue</button>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="index.js"></script>
+      <div class="completed" id="complete">
+        <img src="images/icon-complete.svg" alt="complete" />
+        <h2>THANK YOU!</h2>
+        <p>We've addded your card details</p>
+        <button onclick="resetFields()">Continue</button>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <script src="index.js"></script>
+    </main>
   </body>
 </html>
